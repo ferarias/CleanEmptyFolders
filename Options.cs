@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using CommandLine;
 
-namespace CleanPicasaFolders
+namespace CleanEmptyFolders
 {
 	public class Options
 	{

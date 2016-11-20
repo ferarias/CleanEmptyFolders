@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using CommandLine;
 
-namespace CleanPicasaFolders
+namespace CleanEmptyFolders
 {
 	class MainClass
 	{
 		public static int Main(string[] args)
 		{
-			Console.WriteLine("Clean Empty Picasa folders");
+			Console.WriteLine("Clean Empty folders");
 
 			var result = Parser.Default.ParseArguments<Options>(args);
 			var exitCode = result.MapResult(options =>

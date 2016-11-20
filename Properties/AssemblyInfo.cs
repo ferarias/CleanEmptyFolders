@@ -4,8 +4,8 @@ using System.Runtime.CompilerServices;
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle("CleanPicasaFolders")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CleanEmptyFolders")]
+[assembly: AssemblyDescription("A simple utility to clean empty (or almost) folders")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
