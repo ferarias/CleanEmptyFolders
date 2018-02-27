@@ -22,6 +22,7 @@ namespace CleanEmptyFolders
 												Console.WriteLine(errors);
 												return 1;
 											});
+			Console.WriteLine("Clean Empty folders finished with exit code " + exitCode);
 			return exitCode;
 		}
 
@@ -77,7 +78,7 @@ namespace CleanEmptyFolders
 
 		private static bool FilesAreUnimportant(string[] files)
 		{
-			return files.Any() && files.All(FileIsUnimportant);
+			return !files.Any() || files.Any() && files.All(FileIsUnimportant);
 
 		}
 
