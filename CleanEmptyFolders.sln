@@ -1,7 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanEmptyFolders", "src/CleanEmptyFolders/CleanEmptyFolders.csproj", "{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanEmptyFolders", "src\CleanEmptyFolders\CleanEmptyFolders.csproj", "{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +10,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Debug|x86.ActiveCfg = Debug|x86
-		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Debug|x86.Build.0 = Debug|x86
-		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Release|x86.ActiveCfg = Release|x86
-		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Release|x86.Build.0 = Release|x86
+		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{774D2C38-7CA3-47E0-8EB3-62CF0C1B60FF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F8920CB-8C69-433E-8D53-6ACF9C09AC03}
 	EndGlobalSection
 EndGlobal

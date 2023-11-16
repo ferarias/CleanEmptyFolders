@@ -10,8 +10,8 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/CleanEmptyFolders/bin/Debug/netcoreapp2.0/CleanEmptyFolders.dll",
-            "args": ["-f D:\\fotos\\2018", "--verbose"],
+            "program": "${workspaceFolder}/src/CleanEmptyFolders/bin/Debug/net8.0/CleanEmptyFolders.dll",
+            "args": ["-", "-f D:\\photo", "--verbose"],
             "cwd": "${workspaceFolder}/src/CleanEmptyFolders",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
